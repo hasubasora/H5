@@ -145,7 +145,7 @@ ul {
 
 .textp {
     position: absolute;
-    bottom: 3.5rem;
+    bottom: 3rem;
     left: 31%;
     color: #ffffff;
     font-size: .6rem;
@@ -157,7 +157,7 @@ ul {
 }
 .texttop{
     position: absolute;
-    top: 31%;
+    top: 32%;
     left: 25%;
     color: #ffffff;
     font-size: .6rem;
