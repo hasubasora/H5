@@ -37,7 +37,10 @@ html,
 body {
     padding: 0;
     margin: 0;
-    background: #fffeea;
+    background: rgb(35, 24, 77) url('../imgs/ditu.png') no-repeat;
+    /* background-size: cover; */
+    background-size: contain;
+    /* background-position: 0 0; */
     height: 100%;
 }
 
@@ -66,18 +69,21 @@ ul {
 }
 
 .box {
-    width: 14rem;
-    height: 14rem;
+    width: 13rem;
+    height: 13rem;
     position: relative;
     margin: 0 auto;
     position: absolute;
-    top: 50%;
+    top: 55%;
     left: 50%;
     transform: translate(-50%, -50%);
     -webkit-transform: translate(-50%, -50%);
     -moz-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     -o-transform: translate(-50%, -50%);
+    background: url(../imgs/lotteryContent.png)no-repeat;
+    background-size: contain;
+    
 }
 
 .box .outer {
@@ -95,13 +101,15 @@ ul {
 }
 
 .box .outer img {
-    width: 100%;
+    width: 77%;
+    height: auto;
+    padding: 1.5rem;
 }
 
 .box .inner {
     position: relative;
-    width: 5rem;
-    height: 5rem;
+    width: 3.4rem;
+    height: 7rem;
     left: 50%;
     top: 50%;
     -webkit-transform: translate(-50%, -50%);
@@ -133,4 +141,24 @@ ul {
 
 .box .inner.completed {
     background-position: -10rem 0;
+}
+
+.textp {
+    position: absolute;
+    bottom: 3.5rem;
+    left: 31%;
+    color: #ffffff;
+    font-size: .6rem;
+}
+
+.textp span {
+    color: #e7b75f;
+    text-align: center;
+}
+.texttop{
+    position: absolute;
+    top: 30%;
+    left: 25%;
+    color: #ffffff;
+    font-size: .6rem;
 }
