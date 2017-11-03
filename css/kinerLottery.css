@@ -81,8 +81,8 @@ ul {
     -moz-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     -o-transform: translate(-50%, -50%);
-    background: url(../imgs/lotteryContent.png)no-repeat;
-    background-size: contain;
+    /* background: url(../imgs/lotteryContent.png)no-repeat;
+    background-size: contain; */
     
 }
 
@@ -101,9 +101,9 @@ ul {
 }
 
 .box .outer img {
-    width: 77%;
+    width: 100%;
     height: auto;
-    padding: 1.5rem;
+    /* padding: 1.5rem; */
 }
 
 .box .inner {
@@ -157,7 +157,7 @@ ul {
 }
 .texttop{
     position: absolute;
-    top: 30%;
+    top: 31%;
     left: 25%;
     color: #ffffff;
     font-size: .6rem;
