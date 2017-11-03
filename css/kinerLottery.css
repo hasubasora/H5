@@ -42,6 +42,7 @@ body {
     background-size: contain;
     /* background-position: 0 0; */
     height: 100%;
+    overflow: hidden;
 }
 
 p,
