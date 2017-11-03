@@ -38,8 +38,8 @@ body {
     padding: 0;
     margin: 0;
     background: rgb(35, 24, 77) url('../imgs/ditu.png') no-repeat;
-    background-size: cover;
-    /* background-size: contain; */
+    /* background-size: cover; */
+    background-size: contain;
     /* background-position: 0 0; */
     height: 100%;
 }
