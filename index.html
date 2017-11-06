@@ -10,10 +10,9 @@
 
 <body>
     <!-- 红包显示 -->
-    <div class="redBox">
+    <div class="redBox none">
         <p class="redBox-m">1.2元</p>
         <img src="./imgs/kaishijingcai.png" width='80%' alt="开始竞猜" id="goQuiz">
-
     </div>
     <!-- 红包显示 e -->
     <!-- 转盘头 -->
@@ -81,11 +80,19 @@
 
             KinerLotteryHandler: function (deg) {
 
-                alert("恭喜您获得:" + whichAward(deg));
-
+                // alert("恭喜您获得:" + whichAward(deg));
+                $('.redBox').css({
+                    transform: 'scale(1)',
+                    transition: '.3s'
+                });
+                $('.redBox-m').text(whichAward(deg))
 
             } //抽奖结束回调
         });
+
+        $('.goQuiz').on('click',function () {
+            window.location.href='quiz.html';
+        })
     </script>
 </body>
 
