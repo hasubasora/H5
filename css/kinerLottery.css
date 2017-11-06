@@ -177,4 +177,5 @@ ul {
 #goQuiz{
     margin: auto;
     display: block;
+    transform: translateY(20rem);
 }
