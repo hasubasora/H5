@@ -169,7 +169,7 @@ ul {
     
 }
 .redBox .redBox-m{
-    transform: translateY(15rem);
+    transform: translateY(14rem);
     color: aliceblue;
     font-size: 2rem;
     text-align: center;
@@ -177,5 +177,5 @@ ul {
 #goQuiz{
     margin: auto;
     display: block;
-    transform: translateY(20rem);
+    transform: translateY(18rem);
 }
